@@ -56,8 +56,8 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 36px;
     text-align: center;
-    padding: 20px;
-    height: 30px;
+    padding: auto;
+    height: 100%;
     text-shadow: 1px 1px white;
 }
 .encabezadoimg{
