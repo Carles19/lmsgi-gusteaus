@@ -1,4 +1,5 @@
 /*Ejercicios1*/
+
 .contenedor {
     background-color: #fff8f0;
     font-family: 'Times New Roman', Times, serif;
@@ -57,8 +58,12 @@
     font-size: 36px;
     text-align: center;
     padding: auto;
-    height: 100%;
+    width: auto;
+    height: 1000px;
     text-shadow: 1px 1px white;
+    border-style: initial 2px black;
+    border: 2px solid black;
+    position: relative;
 }
 .encabezadoimg{
     width: 5%;
@@ -67,6 +72,8 @@
     top: auto;
     left: 80px;
     right: auto;
+    transform: translateY(0%);
+
 }
     
 .pie {
@@ -83,13 +90,48 @@
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    list-style-type: none;
+    overflow: hidden;
 }
 
 .menu:hover {
     transition: color 0.3s ease;
     color: #5a3e36;
     border-style: double;
+    
 }
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    color: #ffffff;
+}
+.menu li {
+    float: center;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    color: #ffffff;
+}
+
+.menu li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    transition: color 0.3s ease;
+    color: #5a3e36;
+    border-style: double;
+    text-align: center;
+}
+
 
 /*Ejercicios4*/
 .contenido {
