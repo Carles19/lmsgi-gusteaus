@@ -21,6 +21,8 @@
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    border-end-start-radius:  6px;
+    border-bottom-right-radius: 6px;
 }
 
 .menu:hover {
@@ -82,6 +84,18 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
+    float: left;
+    width: 15%;
+    border-radius: 6px;
+}
+.pie2{
+    float: right;
+    text-align: right;
+    width: 285px;
+    height: 38px;
+    background-color: #8b6f47;
+    color: #ecdcc6;
+    border-radius: 6px;color: black;
 }
 
 /*Ejercicios3*/
@@ -160,3 +174,4 @@
     font-size: 18px;
     transition: 0.3s;
 }
+/*Ejercicio8*/
