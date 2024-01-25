@@ -66,6 +66,8 @@
     border-style: initial 2px black;
     border: 2px solid black;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .encabezadoimg{
     width: 5%;
@@ -90,8 +92,8 @@
 }
 .pie2{
     float: right;
-    text-align: right;
-    width: 285px;
+    text-align: center;
+    width: 230px;
     height: 38px;
     background-color: #8b6f47;
     color: #ecdcc6;
@@ -166,7 +168,18 @@
     clear: both;
 }
 
-/*@media screen and (max-width: 768px)*/
+/*@media screen and (max-width: 768px)
+{
+    .encabezado {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+*/
 /*Ejercicios5*/
 /*Ejercicios6*/
 .menu ul li a:hover {
