@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 5px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.menu-estrella h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.menu-estrella ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-estrella li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+
+.menu-estrella li:hover {
+    background-color: #ac8f8f;
+}
+
+.menu-estrella li[data-alergenos*="nueces"] {
+    border: 2px solid #ff6347; /* Borde rojo para alérgenos de nueces */
+}
+
+.menu-estrella li[data-alergenos*="mariscos"] {
+    border: 2px solid #1e90ff; /* Borde azul para alérgenos de mariscos */
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

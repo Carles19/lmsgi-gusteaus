@@ -1,0 +1,50 @@
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-style: solid 6px ;
+    text-shadow: rgb(236, 111, 53) 30px;
+    font-size: 40px;
+
+}
+.contenido form {
+    margin-top: 20px;
+}
+
+.contenido label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contenido input[type='text'],
+.contenido input[type='email'],
+.contenido input[type='tel'],
+.contenido input[type='number'],
+.contenido input[type='date'],
+.contenido input[type='time'],
+.contenido textarea {
+    border: 1px solid #a77e58;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff8f0;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.contenido input[type='submit'] {
+    background-color: #5a3e36;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contenido input[type='submit']:hover {
+    background-color: #a77e58;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contenido form {
+        
+    }
+}
